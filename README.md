@@ -17,6 +17,11 @@ pnpm install
 pnpm electron:serve
 ```
 
+## 打包桌面端程序
+```bash
+pnpm electron:build
+```
+
 # 持续更新中～～ 
 # 欢迎✨star 和 ❤️一起学习
 
