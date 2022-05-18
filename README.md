@@ -1,46 +1,26 @@
-# vue-project
+# electron-vite-vue3
 
-This template should help get you started developing with Vue 3 in Vite.
+> 🚀 1. 基于 electron + vite + vue3 + ts + pinia的基础开发模版
 
-## Recommended IDE Setup
+> 🚀 2. 支持热更新和一键打包
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+> 🚀 3. 提供了一个动态修改系统主题的示例
 
-## Type Support for `.vue` Imports in TS
+## 构建
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+在构建此应用之前, 你需要安装 [Node.js](https://nodejs.org).
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```bash
+git clone https://github.com/UstinianMobius/electron-vite-vue3
+cd electron-vite-vue3
+pnpm install
+pnpm electron:serve
 ```
 
-### Compile and Hot-Reload for Development
+# 持续更新中～～ 
+# 欢迎✨star 和 ❤️一起学习
 
-```sh
-npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
 
-```sh
-npm run build
-```
 
-### Lint with [ESLint](https://eslint.org/)
 
-```sh
-npm run lint
-```
